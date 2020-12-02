@@ -31,7 +31,7 @@ module.exports = {
             res.status(422).json(error);
         });
     },
-    remove: (req, res) {
+    remove: (req, res) => {
         db.Book.findById({ _id: req.params.id }).then(dbModel => {
             dbModel.remove()
         }).then(dbModel => {
