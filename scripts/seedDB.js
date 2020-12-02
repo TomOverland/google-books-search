@@ -14,7 +14,7 @@ const bookSeed = {
 
 // Clear out the Books collection and inserts the seed data
 db.Book.remove({}).then(() => {
-    db.Book.collection.insertMany(bookSeek)
+    db.Book.collection.insertMany(bookSeed)
 }).then(data => {
     console.log(data.result.n + " book(s) inserted!");
     process.exit(0);
