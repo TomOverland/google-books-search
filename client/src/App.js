@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
 import {BrowserRouter as Router, Route } from 'react-router-dom';
-import NavBar from "./components/NavBar/NavBar";
-import Header from "./components/Header/Header";
-import Wrapper from "./components/Wrapper/Wrapper";
+import NavBar from "./components/NavBar/NavBar.js";
+import Header from "./components/Header/Header.js";
+import Wrapper from "./components/Wrapper/Wrapper.js";
 
-import Search from "./pages/Search";
-import Saved from "./pages/Saved";
-import Unknown from "./pages/Unknown";
+import Search from "./pages/Search.js";
+import Saved from "./pages/Saved.js";
+import Unknown from "./pages/Unknown.js";
 
 import './App.css';
 
