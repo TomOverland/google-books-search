@@ -9,7 +9,8 @@
 /coverage
 
 # production
-/build
+# removed build from gitignore to push to heroku
+# /build
 
 # misc
 .DS_Store
