@@ -18,13 +18,10 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes);
 
 // Connect to the Mongo Database
-mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost:27017/googlebooks",
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  }
-);
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googlebooks", {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 mongoose.connection.on("connected", () => {
   console.log("Connected to MongoDB with Mongoose!");
 });
