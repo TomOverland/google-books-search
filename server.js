@@ -9,7 +9,7 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// Static Assests
+// Serve Static Assests to Heroku
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
