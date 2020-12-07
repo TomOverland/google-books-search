@@ -4,7 +4,7 @@ Full stack application with a React frontend that uses the Google Books API to s
 
 [Live Website](https://damp-shelf-31146.herokuapp.com/).
 
-![Screenshot of Application](link-to-come)
+![Screenshot of Application](https://github.com/TomOverland/google-books-search/blob/main/client/public/assets/screenshot-of-google-books-search.JPG)
 
 
 ## Table of Contents
@@ -21,7 +21,7 @@ Full stack application with a React frontend that uses the Google Books API to s
 
 This full stack application allows a user to search for a book using an Google Book's API, and will display a list of search results on submit.  The user will be able to save books they are interested in, and view a list of saved books.  Books are saved to a Mongo database. This project was created using the MERN stack (MongoDB, Express, React and Node), and was based on a project prompt I received from the University of Minnesota's Full Stack Web Development Bootcamp. I deployed this application to Heroku and connected the database to Mongo Atlas.
 
-![Screenshot of Application](demo-gif)
+![Screenshot of Application](https://github.com/TomOverland/google-books-search/blob/main/client/public/assets/demo-google-books-search.gif)
 
 
 ## Installation:
