@@ -4,7 +4,7 @@ function Form(props) {
   return (
     <div className="container">
       <form>
-        <div className="form-group">
+        <div className="form-group text-center">
           <label htmlFor="search">
             <h2>Search for Books</h2>
           </label>
@@ -13,13 +13,13 @@ function Form(props) {
             value={props.search}
             name="search"
             type="text"
-            className="formControl"
+            className="formControl ml-2"
             placeholder="Search"
             id="search"
           />
           <button
             onClick={props.handleFormSubmit}
-            className="btn btn-default mt-3 mb-5"
+            className="btn btn-secondary ml-2"
           >
             Search
           </button>

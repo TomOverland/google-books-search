@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar.js";
 import Header from "./components/Header/Header.js";
 import Wrapper from "./components/Wrapper/Wrapper.js";
+import './App.css';
 
 import Search from "./pages/Search.js";
 import Saved from "./pages/Saved.js";
@@ -13,7 +14,7 @@ import "./App.css";
 function App() {
   return (
     <Router>
-      <div>
+      <div className="background">
         <NavBar />
         <Header />
         <Wrapper>
