@@ -46,7 +46,9 @@ By typing "npm install" you will download all of the dependencies required for t
 
 #### Step 5 - Start the application on your local server
 
-Type the following script in your command line: "npm run start" and your internet browser will open a webpage on localhost:3000.  
+Make sure you have MongoDB running in your terminal by typing "mongod" in your CLI.  
+Type the following script in your command line: "npm run start" and your internet browser will open a webpage on localhost:3000 and a backend server on port 3001.  
+I've included a seed file if you'd like to seed information. Run "npm run seed" to store The Hunger Games into your "saved" books.
 
 ## Technology used
 * Node.js - Used to install dependencies and to make command line scripts.
