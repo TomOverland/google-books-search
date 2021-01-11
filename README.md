@@ -21,6 +21,8 @@ Full stack application with a React frontend that uses the Google Books API to s
 
 Users are able to search for a book using Google Book's API, and will receive a list of search results on submit.  The user will be able to save books they are interested in, and view a list of saved books, which are saved to a Mongo database. This application was based on a project prompt I received from the University of Minnesota's Full Stack Web Development Bootcamp. I deployed this application to Heroku and connected the database to Mongo Atlas.
 
+Known issue: The thumbnail images provided by Google Books use a url string that begin with 'http://', which causes an error when trying to display them on Heroku which expects a URL string to begin with 'https://'.  If the search doesn't begin on button-click, try searching with a single word or a similar word (example: Potter vs. Harry Potter).
+
 ![Demo of Application](https://github.com/TomOverland/google-books-search/blob/main/client/public/assets/demo-google-books-search.gif)
 
 
