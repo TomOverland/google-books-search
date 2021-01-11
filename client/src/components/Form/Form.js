@@ -8,17 +8,16 @@ function Form(props) {
           <label htmlFor="search">
             <h2>Search for Books</h2>
           </label>
-          <div className="input-group row justify-content-center">
+          <div className="row justify-content-center">
             <input
               onChange={props.handleInputChange}
               value={props.search}
               name="search"
               type="text"
-              className="form-control ml-2 col-sm-4"
+              className="form-control col-sm-4 ml-2 "
               placeholder="Search"
               id="search"
             />
-
             <button
               onClick={props.handleFormSubmit}
               className="btn btn-secondary ml-2"
