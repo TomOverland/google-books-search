@@ -18,14 +18,13 @@ function Form(props) {
               placeholder="Search"
               id="search"
             />
-            <div className="input-group-append">
-              <button
-                onClick={props.handleFormSubmit}
-                className="btn btn-secondary ml-2"
-              >
-                Search
-              </button>
-            </div>
+
+            <button
+              onClick={props.handleFormSubmit}
+              className="btn btn-secondary ml-2"
+            >
+              Search
+            </button>
           </div>
         </div>
       </form>
